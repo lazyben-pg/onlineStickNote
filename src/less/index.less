@@ -1,0 +1,42 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: black;
+}
+
+ul, li {
+  color: white;
+  list-style: none;
+  text-decoration: none;  
+}
+
+#header {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .add-note {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  .logout {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  .user-area {
+    display: flex;
+    align-items: center;
+    img {
+      height: 18px;
+      margin-top: 5px;
+      border-radius: 50%;
+    }
+  }
+}
+
+#content {
+  position: relative;
+}
